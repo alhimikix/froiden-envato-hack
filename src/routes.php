@@ -1,6 +1,6 @@
 <?php
 
-Route::group(['namespace' => 'Froiden\Envato\Controllers', 'middleware' => 'web'], function () {
+/*Route::group(['namespace' => 'Froiden\Envato\Controllers', 'middleware' => 'web'], function () {
 
     Route::get('verify-purchase', ['uses' => 'PurchaseVerificationController@verifyPurchase'])->name('verify-purchase');
     Route::post('purchase-verified', ['uses' => 'PurchaseVerificationController@purchaseVerified'])->name('purchase-verified');
@@ -25,4 +25,4 @@ Route::group(['namespace' => 'Froiden\Envato\Controllers', 'middleware' => 'web'
     });
     // For old routes on worksuite-saas
     Route::get('super-admin/update-version/checkIfFileExtracted', ['uses' => 'UpdateScriptVersionController@checkIfFileExtracted']);
-});
+});*/
